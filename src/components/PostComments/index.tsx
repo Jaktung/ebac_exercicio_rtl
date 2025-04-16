@@ -19,7 +19,7 @@ const Post = () => {
       <ul className={styles["post-comments"]}>
         {comments.map(({ comment, id }) => (
           <li
-            data-testeid="elemento-comentario"
+            data-testid="elemento-comentario"
             className={styles["post-comment"]}
             key={id}
           >
@@ -39,7 +39,7 @@ const Post = () => {
           className={styles["post-comments-form-textarea"]}
         />
         <button
-          data-testeid="botao-comentario"
+          data-testid="botao-comentario"
           type="submit"
           className={styles["post-comments-form-button"]}
         >
